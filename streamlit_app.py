@@ -253,12 +253,12 @@ form.form_submit_button('Submit')
 
 st.write('Selected value: ', selected_val)
 
-st.header("st.experimental_get_query_params()")
+# st.header("st.experimental_get_query_params()")
 
-firstname = st.experimental_get_query_params()['firstname'][0]
-surname = st.experimental_get_query_params()['surname'][0]
+# firstname = st.experimental_get_query_params()['firstname'][0]
+# surname = st.experimental_get_query_params()['surname'][0]
 
-st.write(f'Hello **{firstname} {surname}**, how are you?')
+# st.write(f'Hello **{firstname} {surname}**, how are you?')
 
 st.title('st.session_state')
 

@@ -336,13 +336,13 @@ if yt_url != '':
 else:
   st.write('☝️ Enter URL to continue ...') 
 
-st.header('streamlit_pandas_profiling & st.cache')    
+# st.header('streamlit_pandas_profiling & st.cache')    
 
-@st.cache_data()
-def load_data():
-     df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
-     return df
+# @st.cache_data()
+# def load_data():
+#      df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
+#      return df
 
-df = load_data()
-pr = df.profile_report()
-st_profile_report(pr)
+# df = load_data()
+# pr = df.profile_report()
+# st_profile_report(pr)
